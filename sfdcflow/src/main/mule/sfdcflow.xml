@@ -42,5 +42,6 @@ VALUES (:studentid, :studentname, :studentnumber, :studentlname);]]></db:sql>
 		</db:insert>
 		</foreach>
 		<logger level="INFO" doc:name="Logger" doc:id="cfd0b5d5-8739-439b-9822-e90cb9f40df9" message="#[payload]"/>
+		<logger level="INFO" doc:name="Logger" doc:id="cfd0b5d5-8739-439b-9822-e90cb9f40df9" message="hai"/>
 	</flow>
 </mule>
